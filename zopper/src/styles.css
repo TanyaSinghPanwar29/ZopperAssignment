@@ -1,0 +1,167 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    font-family: 'Helvetica Neue LT Std 55 Roman';
+}
+@font-face {
+    font-family: 'Helvetica Neue LT Std 55 Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 55 Roman'), url('./assets/fonts/HelveticaNeueLTStd55Roman_22526.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 53 Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 53 Extended'), url('./assets/fonts/HelveticaNeueLTStdEx.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 56 Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 56 Italic'), url('./assets/fonts/HelveticaNeueLTStd56Italic_22527.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 23 Ultra Light Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 23 Ultra Light Extended'), url('./assets/fonts/Helveticaneueltstdultltex.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 25 Ultra Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 25 Ultra Light'), url('./assets/fonts/HelveticaNeueLTStd25UltraLight_22508.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 26 Ultra Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 26 Ultra Light Italic'), url('./assets/fonts/HelveticaNeueLTStd26UltraLightItalic_22509.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 43 Light Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 43 Light Extended'), url('./assets/fonts/HelveticaNeueLTStd43LightExtended_22519.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 45 Light'), url('./assets/fonts/HelveticaNeueLTStd45Light_22520.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 46 Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 46 Light Italic'), url('./assets/fonts/HelveticaNeueLTStd46LightItalic_22521.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 65 Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 65 Medium'), url('./assets/fonts/HelveticaNeueLTStdMd 1.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 63 Medium Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 63 Medium Extended'), url('./assets/fonts/HelveticaNeueLTStdMdEx.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 66 Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 66 Medium Italic'), url('./assets/fonts/HelveticaNeueLTStd66MediumItalic_22533.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 75 Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 75 Bold'), url('./assets/fonts/HelveticaNeueLTStd75Bold_22539.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 73 Bold Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 73 Bold Extended'), url('./assets/fonts/HelveticaNeueLTStdBdEx 1.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 76 Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 76 Bold Italic'), url('./assets/fonts/HelveticaNeueLTStd76BoldItalic_22540.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 85 Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 85 Heavy'), url('./assets/fonts/HelveticaNeueLTStd85Heavy_22545.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 86 Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 86 Heavy Italic'), url('./assets/fonts/HelveticaNeueLTStd86HeavyItalic_22546.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 93 Black Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 93 Black Extended'), url('./assets/fonts/HelveticaNeueLTStd93BlackExtended_22550.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 95 Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 95 Black'), url('./assets/fonts/HelveticaNeueLTStd95Black_22551.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Helvetica Neue LT Std 96 Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 96 Black Italic'), url('./assets/fonts/HelveticaNeueLTStd96BlackItalic_22552.woff') format('woff');
+    }
